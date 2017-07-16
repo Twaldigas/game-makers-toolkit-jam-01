@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="CanvasItemMaterial" subresource_count="4" version="2.1" version_name="Godot Engine v2.1.3.stable.official">
+	<ext_resource path="res://assets/tilesets/water_top_shader_item.xml" type="Shader" index="0"></ext_resource>
+	<ext_resource path="res://assets/textures/water_top_2.tex" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://assets/textures/water_top_1.tex" type="Texture" index="1"></ext_resource>
+	<main_resource>
+		<resource name="shader/shader" external="0">  </resource>
+		<int name="shader/shading_mode"> 0 </int>
+		<resource name="shader_param/f1" external="1">  </resource>
+		<resource name="shader_param/f2" external="2">  </resource>
+		<real name="shader_param/speed"> 2 </real>
+
+	</main_resource>
+</resource_file>

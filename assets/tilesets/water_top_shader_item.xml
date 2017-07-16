@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="CanvasItemShader" subresource_count="1" version="2.1" version_name="Godot Engine v2.1.3.stable.official">
+	<main_resource>
+		<dictionary name="_code" shared="false">
+			<string> "fragment" </string>
+			<string> "uniform texture f1;&#000a;uniform texture f2;&#000a;&#000a;uniform float speed = 1.0;&#000a;&#000a;color cor;&#000a;float time = mod(TIME * speed, 1);&#000a;&#000a;if(time &lt; 0.5) {&#000a;&#0009;cor = tex(f1, UV);&#000a;} else {&#000a;&#0009;if(time &lt; 1) {&#000a;&#0009;&#0009;cor = tex(f2, UV);&#000a;&#0009;}&#000a;}&#000a;&#000a;&#000a;COLOR = cor;" </string>
+			<string> "fragment_ofs" </string>
+			<int> 0 </int>
+			<string> "light" </string>
+			<string> "" </string>
+			<string> "light_ofs" </string>
+			<int> 0 </int>
+			<string> "vertex" </string>
+			<string> "" </string>
+			<string> "vertex_ofs" </string>
+			<int> 0 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
